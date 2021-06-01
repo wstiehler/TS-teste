@@ -27,3 +27,19 @@ class CategoryModel:
         categoria.set_nome = lista_categoria[0]
         categoria.set_descricao = lista_categoria[1]
         return categoria
+
+     
+
+cat = CategoryModel()
+assert type(cat) == CategoryModel
+
+nome = "Teste categoria 1"
+desc = 'Teste categoria 1'
+
+cat.set_nome = nome
+cat.set_descricao = desc
+
+assert isinstance(cat.get_nome, str) 
+assert isinstance(cat.get_descricao, str) 
+
+print("Teste OK")   
