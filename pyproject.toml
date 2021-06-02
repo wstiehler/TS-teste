@@ -6,6 +6,8 @@ authors = ["william villani stiehler <william.stiehler@olist.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+mypy = "^0.812"
+flake8 = "^3.9.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"

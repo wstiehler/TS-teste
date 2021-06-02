@@ -15,7 +15,7 @@ categoria_dao.cadastrar(categoria1)
 lista = categoria_dao.ler()
 for item in lista:
     print(item)
-
+    
 print('=' * 15, "Imprimindo lista de Produtos", '=' *15)
 product1 = ProductModel()
 product1.set_nome = "TesteNome"

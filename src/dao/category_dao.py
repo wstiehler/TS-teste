@@ -2,7 +2,7 @@ from src.dao.dao import Dao
 from src.model.category_model import CategoryModel
 
 class CategoryDao(Dao):
-
+    
     def __init__(self, nome_arquivo) -> None:
         nome_arquivo = 'category.txt'
         super().__init__(nome_arquivo)

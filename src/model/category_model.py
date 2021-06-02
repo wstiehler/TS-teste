@@ -29,15 +29,15 @@ class CategoryModel:
         return categoria
 
 
-cat = CategoryModel()
-assert type(cat) == CategoryModel
+# cat = CategoryModel()
+# assert type(cat) == CategoryModel
 
-nome = "Teste categoria 1"
-desc = 'Teste categoria 1'
+# nome = "Teste categoria 1"
+# desc = 'Teste categoria 1'
 
-cat.set_nome = nome
-cat.set_descricao = desc
+# cat.set_nome = nome
+# cat.set_descricao = desc
 
-assert isinstance(cat.get_nome, str) 
-assert isinstance(cat.get_descricao, str) 
-print('teste ok')
+# assert isinstance(cat.get_nome, str) 
+# assert isinstance(cat.get_descricao, str) 
+# print('teste ok')

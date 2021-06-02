@@ -19,14 +19,14 @@ class Dao:
     
 
 
-dao = Dao('teste.txt')
-assert type(dao) == Dao
+# dao = Dao('teste.txt')
+# assert type(dao) == Dao
 
-nome_arquivo = 'teste.txt'
-dado = 'teste'
+# nome_arquivo = 'teste.txt'
+# dado = 'teste'
 
-dao.__init__ = nome_arquivo
-dao.cadastrar = dado
+# dao.__init__ = nome_arquivo
+# dao.cadastrar = dado
 
-assert isinstance(dao.__init__, str)
-assert isinstance(dao.cadastrar, str)
+# assert isinstance(dao.__init__, str)
+# assert isinstance(dao.cadastrar, str)

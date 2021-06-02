@@ -38,17 +38,17 @@ class ProductModel:
         produto.set_valor = lista[2]
         return produto
 
-prod = ProductModel()
-assert type(prod) == ProductModel
+# prod = ProductModel()
+# assert type(prod) == ProductModel
 
-nome = 'teste'
-descricao = 'teste'
-valor = 100.00
+# nome = 'teste'
+# descricao = 'teste'
+# valor = 100.00
 
-prod.set_nome = nome
-prod.set_descricao = descricao
-prod.set_valor = valor
+# prod.set_nome = nome
+# prod.set_descricao = descricao
+# prod.set_valor = valor
 
-assert isinstance(prod.get_nome, str)
-assert isinstance(prod.get_descricao, str)
-assert isinstance(prod.get_valor, float)
+# assert isinstance(prod.get_nome, str)
+# assert isinstance(prod.get_descricao, str)
+# assert isinstance(prod.get_valor, float)
