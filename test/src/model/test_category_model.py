@@ -41,3 +41,5 @@ class TestCategoryModel(unittest.TestCase):
     #     category.set_descricao = 'teste'
     #     #assercao
     #     self.assertEquals(category.lista_para_objeto(lista_categoria=[]), 'item1', 'item2')
+
+    #teste
