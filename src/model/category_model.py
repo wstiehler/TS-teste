@@ -28,7 +28,6 @@ class CategoryModel:
         categoria.set_descricao = lista_categoria[1]
         return categoria
 
-     
 
 cat = CategoryModel()
 assert type(cat) == CategoryModel
@@ -41,5 +40,4 @@ cat.set_descricao = desc
 
 assert isinstance(cat.get_nome, str) 
 assert isinstance(cat.get_descricao, str) 
-
-print("Teste OK")   
+print('teste ok')

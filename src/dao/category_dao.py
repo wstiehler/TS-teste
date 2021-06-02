@@ -18,3 +18,6 @@ class CategoryDao(Dao):
             categoria = CategoryModel.lista_para_objeto(linha_dados)
             lista_categorias.append(categoria)
         return lista_categorias
+
+
+
